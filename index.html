@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de  Moeda$</h1>
+        <span>Início do Projeto: <time datetime="2025-01-03 13:00">Janeiro de 2025</time></span>
+    </header>
+    <main>
+        <div id="valor">
+            <span>Informe o valor:</span>
+            <input type="number" id="numero">
+        </div>
+        
+        <div id="entrada">
+            <span>Converter de:</span>
+            <select name="moeda" id="moeda01">
+                <option value="">Real(Brasil)</option>
+                <option value="">Dólar(EUA)</option>
+                <option value="">Euro</option>
+                <option value="">Libra</option>
+                <option value="">Iene(Japão)</option>
+            </select>
+        </div>
+
+        <div id="saida">
+            <span>Para</span>
+            <select name="moeda" id="moeda02">
+                <option value="">Real(Brasil)</option>
+                <option value="">Dólar(EUA)</option>
+                <option value="">Euro</option>
+                <option value="">Libra</option>
+                <option value="">Iene(Japão)</option>
+            </select>
+        </div>
+
+        <input type="button" value="Converter" onclick="calcular()">
+
+        <div id="res">
+
+        </div>
+    </main>
+    <footer>
+        &copy;MateusOliveira, 2025
+    </footer>
+
+    <script src="code.js"></script>
+</body>
+</html>

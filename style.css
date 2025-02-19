@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(193, 193, 25, 0.26);
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(25, 98, 5, 0.525);
+    padding: 7px;
+    margin: auto;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    columns: 5;
+    background-color: rgba(25, 98, 5, 0.388);
+    border-radius: 5px;
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.232);
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 25px;
+}
